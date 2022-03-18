@@ -1,0 +1,57 @@
+- 비율코딩
+
+- Manifest파일
+    - 4대 구성요소, intent-filter
+activity : 사용자에게 보여주는 UI 화면
+service : 백그라운드 작업을 수행하는 구성요소
+receiver : 시스템 전반에서 특정 이벤트에 대해 응답하는 역할
+provider : 다른 앱들의 데이터들을 공유 받기 위한 역할
+intent-filter : 
+		
+- drawable
+    - 어떻게 하면 뷰를 둥글게 만들 수 있을까?
+drawable을 사용
+
+- id,layout_width,layout_height
+	id : 뷰의 식별자 속성
+	layout_width, layout_height : 뷰의 크기 지정
+
+- ConstraintLayout
+    - constraint
+
+    - chainstyle
+spread : 뷰들을 골고루 펼쳐 여백을 같게 함(default)
+spread_inside : spread와 비슷하지만 가장 외곽에 있는 뷰들은 부모 뷰와 여백이 없는 상태로 골고루 펼쳐짐
+packed : 뷰들이 똘똘 뭉치게 되고 부모뷰로부터의 여백을 같게 함. 여백을 조정하고 싶다면 bias조정을 통해 한쪽으로 치우치게 만들 수 있음.
+
+- ScrollView
+스크롤을 할 수 있게끔 해주는 View.
+자식으로 하나의 View만 받을 수 있으므로 레이아웃을 보통 자식으로 둔다. 
+
+- ImageView
+    - **scaletype**
+https://sharp57dev.tistory.com/23
+
+    - src 와background의 차이
+background의 경우 무조건 view를 꽉 채우게 됨
+src의 경우는 뷰에 컨텐츠를 심어주는 개념
+padding이 걸려있을 경우 background로 이미지를 준다면 비율이 깨져보일 수 있고 src로 준다면 이미지 비율이 유지될 것임
+
+    - 둥글게 만들어보기
+둥그런 효과를 주는 drawable을 만들어 view의 background 속성에 넣는다.
+혹은 OutlineProvider를 통해 동적으로 적용 시키는 방법도 존재.(scaletype이 centerCrop일 경우)
+
+- margin과 padding의 차이
+margin은 컨텐츠 바깥쪽에 위치한 여백을 의미
+padding은 컨텐츠 안쪽의 여백을 의미
+
+- 6가지 레이아웃의 속성들
+LinearLayout : 단일 방향으로 모든 하위 요소들을 정렬함
+RelativeLayout : 자식과 부모 뷰 간의 관계에 의해 배치
+FrameLayout : 여러 개의 뷰를 중첩으로 배치하고 그 중 하나를 전면에 표시함
+TableLayout : 행과 열로 이루어진 표 형태의 구조를 가진 레이아웃
+GridLayout : TableLayout의 단점을 보완한 레이아웃으로 직관적인 행렬 선언과 셀 병합이 가능
+ConstraintLayout : RelativeLayout의 특성에 LinearLayout의 가중치가 가진 장점을 적용. chain 사용
+
+- 바텀네비게이션뷰 - 어떻게 만들어진건지 템플릿 코드 분석해보기
+
