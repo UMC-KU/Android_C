@@ -21,8 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding.mainPlayerCl.setOnClickListener {
             //startActivity(Intent(this,SongActivity::class.java))
             val intent = Intent(this,SongActivity::class.java)
-            intent.putExtra("title",song.title)
-            intent.putExtra("singer",song.singer)
+            intent.putExtra("song", song)
             startActivity(intent)
         }
 

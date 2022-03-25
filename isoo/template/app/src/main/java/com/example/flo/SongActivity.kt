@@ -1,12 +1,16 @@
 package com.example.flo
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.flo.databinding.ActivitySongBinding
 
 class SongActivity : AppCompatActivity() {
     lateinit var binding : ActivitySongBinding
+
+    // for playing img resource
+    var playing = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,25 +20,24 @@ class SongActivity : AppCompatActivity() {
             finish()
         }
         binding.songMiniplayerIv.setOnClickListener {
-            setPlayerStatus(false)
-        }
-        binding.songPauseIv.setOnClickListener {
-            setPlayerStatus(true)
+            setPlayerStatus()
         }
 
-        if(intent.hasExtra("title") && intent.hasExtra("singer")) {
-            binding.songTitleTv.text = intent.getStringExtra("title")
-            binding.songSingerTv.text = intent.getStringExtra("singer")
+        if(intent.hasExtra("song")) {
+            val song = intent.getSerializableExtra("song") as Song
+            binding.songTitleTv.text = song.title
+            binding.songSingerTv.text = song.singer
+            Log.d("song", song.title + song.singer)
         }
     }
 
-    fun setPlayerStatus(isPlaying : Boolean) {
-        if(isPlaying) {
-            binding.songMiniplayerIv.visibility = View.VISIBLE
-            binding.songPauseIv.visibility = View.GONE
+    fun setPlayerStatus() {
+        if(playing) {
+            binding.songMiniplayerIv.setImageResource(R.drawable.btn_miniplay_pause)
+            playing = false
         } else {
-            binding.songMiniplayerIv.visibility = View.GONE
-            binding.songPauseIv.visibility = View.VISIBLE
+            binding.songMiniplayerIv.setImageResource(R.drawable.btn_miniplayer_play)
+            playing = true
         }
     }
 }

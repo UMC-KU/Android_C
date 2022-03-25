@@ -89,7 +89,7 @@
         android:layout_marginTop="5dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
-        app:layout_constraintHorizontal_chainStyle="packed"/>
+        app:layout_constraintHorizontal_chainStyle="packed" />
 
     <ImageButton
         android:id="@+id/song_singerMore_ib"
@@ -105,14 +105,18 @@
 
     <ImageView
         android:id="@+id/song_albumImg_iv"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/img_album_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
         android:scaleType="fitCenter"
-        app:layout_constraintTop_toBottomOf="@id/song_singer_tv"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/img_album_exp2"
+        app:layout_constraintBottom_toTopOf="@id/song_lyrics1_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/song_singer_tv"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
 
     <TextView
         android:id="@+id/song_lyrics1_tv"
@@ -225,13 +229,6 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/btn_miniplayer_play" />
-
-        <ImageView
-            android:id="@+id/song_pause_iv"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/btn_miniplay_mvpause"
-            android:visibility="gone" />
 
         <ImageView
             android:id="@+id/song_next_iv"
