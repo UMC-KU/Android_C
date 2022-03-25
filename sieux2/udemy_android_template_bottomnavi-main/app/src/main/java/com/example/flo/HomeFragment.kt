@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import com.example.flo.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
-
     lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
@@ -17,6 +16,11 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
+
+        binding.homeBtnPotcastIv.setOnClickListener {
+            (context as MainActivity ).supportFragmentManager.beginTransaction().replace(R.id.main_frm,AlbumFragment()).commitAllowingStateLoss()
+
+        }
 
         return binding.root
     }
