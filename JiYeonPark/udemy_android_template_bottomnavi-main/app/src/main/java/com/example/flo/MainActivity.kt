@@ -1,7 +1,9 @@
 package com.example.flo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import com.example.flo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +14,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        binding.mainPlayerCl.setOnClickListener{
+            //startActivity(Intent(this,SongActivity::class.java))
+            //intent로 값 넘기기
+//            val title= R.id.main_player_cl_title.text.toString()
+//            val singer=R.id.main_player_cl_singer.text.toString()
+
+            val intent = Intent(this,SongActivity::class.java)
+//            intent.putExtra("Title",title)
+//            intent.putExtra("Singer",singer)
+            startActivity(intent)
+        }
+
 
         initBottomNavigation()
 

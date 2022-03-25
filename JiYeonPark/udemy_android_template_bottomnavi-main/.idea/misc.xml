@@ -14,11 +14,15 @@
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2916666666666667" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/drawable/btm_color_selector.xml" value="0.2953703703703704" />
+        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/drawable/button_background_flo_color.xml" value="0.2125" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/activity_song.xml" value="0.25" />
+        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_album.xml" value="0.1" />
+        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_locker.xml" value="0.3536458333333333" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_look.xml" value="0.3536458333333333" />
         <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/androidImport/udemy_android_template_bottomnavi-main/app/src/main/res/layout/item_album.xml" value="0.1953125" />
       </map>
     </option>
   </component>
