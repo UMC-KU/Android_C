@@ -1,7 +1,9 @@
 package com.example.flo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.flo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -13,8 +15,17 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        initBottomNavigation()
+        val song = Song(binding.mainPlayerTitleTv.text.toString(), binding.mainPlayerSingerTv.text.toString())
+        Log.d("Song", song.title + song.singer)
 
+        binding.mainPlayerCl.setOnClickListener {
+            //startActivity(Intent(this,SongActivity::class.java))
+            val intent = Intent(this,SongActivity::class.java)
+            intent.putExtra("song", song)
+            startActivity(intent)
+        }
+
+        initBottomNavigation()
     }
 
     private fun initBottomNavigation(){
