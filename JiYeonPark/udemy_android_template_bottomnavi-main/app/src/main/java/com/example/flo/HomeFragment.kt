@@ -5,7 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+<<<<<<< HEAD
 import androidx.viewpager2.widget.ViewPager2
+=======
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 import com.example.flo.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -20,6 +23,7 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         binding.homeAlbumImgIv1.setOnClickListener {
+<<<<<<< HEAD
             (context as MainActivity).supportFragmentManager.beginTransaction()
                 .replace(R.id.main_frm,AlbumFragment())
                 .commitAllowingStateLoss()
@@ -35,6 +39,10 @@ class HomeFragment : Fragment() {
         binding.homeBannerVp.adapter=bannerAdapter
         binding.homeBannerVp.orientation= ViewPager2.ORIENTATION_HORIZONTAL
         
+=======
+            (context as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.main_frm,AlbumFragment()).commitAllowingStateLoss()
+        }
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
         return binding.root
     }
 }

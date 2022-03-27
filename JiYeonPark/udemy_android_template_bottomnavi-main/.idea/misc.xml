@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/layout/activity_song.xml" value="0.25" />
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_album.xml" value="0.25" />
@@ -13,6 +14,8 @@
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/layout/fragment_video.xml" value="0.14947916666666666" />
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/layout/item_album.xml" value="0.1" />
         <entry key="..\:/UMC_code/Android_C-JiYeonPark/JiYeonPark/udemy_android_template_bottomnavi-main/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3333333333333333" />
+=======
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/drawable-v24/main_btm_color_selector.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/drawable/main_btm_color_selector.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
@@ -42,6 +45,7 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+<<<<<<< HEAD
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
@@ -49,4 +53,6 @@
       </ProjectState>
     </option>
   </component>
+=======
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 </project>

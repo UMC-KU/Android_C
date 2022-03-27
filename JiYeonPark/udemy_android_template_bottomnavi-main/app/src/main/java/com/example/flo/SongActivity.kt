@@ -2,7 +2,10 @@ package com.example.flo
 
 import android.os.Bundle
 import android.os.PersistableBundle
+<<<<<<< HEAD
 import android.util.Log
+=======
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +26,7 @@ class SongActivity : AppCompatActivity(){
         }
 
         binding.songMiniplayerIv.setOnClickListener {
+<<<<<<< HEAD
             setPlayerStatus(true)
         }
 
@@ -32,6 +36,13 @@ class SongActivity : AppCompatActivity(){
         if(intent.hasExtra("title")&& intent.hasExtra("singer")){
             binding.songMusicTitleTv.text=intent.getStringExtra("title")
             binding.songSingerNameTv.text=intent.getStringExtra("singer")
+=======
+            setPlayerStatus(false)
+        }
+
+        binding.songPauseIv.setOnClickListener {
+            setPlayerStatus(true)
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
         }
 
     }
@@ -40,7 +51,10 @@ class SongActivity : AppCompatActivity(){
     private fun setPlayerStatus (isPlaying : Boolean){
 
         if(isPlaying){
+<<<<<<< HEAD
 
+=======
+>>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
             binding.songMiniplayerIv.visibility = View.GONE
             binding.songPauseIv.visibility = View.VISIBLE
 
