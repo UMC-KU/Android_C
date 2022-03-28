@@ -8,6 +8,7 @@ import com.example.flo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var binding: ActivityMainBinding
     lateinit var song : Song
 
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        song = Song(binding.mainMiniplayerSingerTv.text.toString())
 
         song.title = binding.mainMiniplayerTitleTv.text.toString()
         song.singer = binding.mainMiniplayerSingerTv.text.toString()
@@ -30,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
         initBottomNavigation()
 
-        val song = Song(binding.mainMiniplayerSingerTv.text.toString())
+
 
         Log.d("song",song.title + song.singer)
 

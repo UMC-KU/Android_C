@@ -269,6 +269,19 @@
             app:layout_constraintTop_toBottomOf="@id/home_album_name3_tv"
             app:layout_constraintStart_toStartOf="@id/home_btn_potcast3_iv"/>
 
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/home_banner_vp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/img_home_viewpager_exp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_album_singname1_tv"/>
+
+
+
+
 
 
 

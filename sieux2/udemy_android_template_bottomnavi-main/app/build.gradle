@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "com.example.flo"
         minSdk 21
-        targetSdk 31
+        targetSdk 21
         versionCode 1
         versionName "1.0"
 
