@@ -47,19 +47,11 @@
                     android:textColor="@color/black" />
 
                 <ImageView
-                    android:id="@+id/song_mixoff_tg"
+                    android:id="@+id/song_mix_tg"
                     android:layout_width="50dp"
                     android:layout_height="25dp"
                     android:layout_gravity="center"
                     android:src="@drawable/btn_toggle_off" />
-
-                <ImageView
-                    android:id="@+id/song_mixon_tg"
-                    android:layout_width="50dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/btn_toggle_on"
-                    android:visibility="gone" />
 
 
             </LinearLayout>

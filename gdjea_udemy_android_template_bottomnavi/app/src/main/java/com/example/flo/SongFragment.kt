@@ -12,16 +12,18 @@ import com.example.flo.databinding.FragmentSongBinding
 class SongFragment : Fragment() {
 
     lateinit var binding: FragmentSongBinding
+    private var on = true
 
-    fun setMIxStatus(isOn : Boolean){
 
-        if(isOn){
-            binding.songMixoffTg.visibility = View.VISIBLE
-            binding.songMixonTg.visibility = View.GONE
+    fun setMIxStatus(){
+
+        if(on){
+            binding.songMixTg.setImageResource(R.drawable.btn_toggle_on)
+            on = false
         }
         else{
-            binding.songMixonTg.visibility = View.GONE
-            binding.songMixoffTg.visibility = View.VISIBLE
+            binding.songMixTg.setImageResource(R.drawable.btn_toggle_off)
+            on = true
         }
     }
 
@@ -32,6 +34,12 @@ class SongFragment : Fragment() {
     ): View? {
         binding = FragmentSongBinding.inflate(inflater,container,false)
 
+        binding.songMixTg.setOnClickListener {
+            setMIxStatus()
+        }
+
         return binding.root
     }
 }
+
+

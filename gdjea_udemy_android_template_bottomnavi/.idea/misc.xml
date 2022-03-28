@@ -21,8 +21,11 @@
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_song.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_album.xml" value="0.3619791666666667" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_banner.xml" value="0.3619791666666667" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_detail.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_song.xml" value="0.3619791666666667" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_video.xml" value="0.3619791666666667" />
       </map>
     </option>
   </component>

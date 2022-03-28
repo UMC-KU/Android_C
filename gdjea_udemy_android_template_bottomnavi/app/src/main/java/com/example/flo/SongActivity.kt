@@ -8,6 +8,7 @@ import com.example.flo.databinding.ActivityMainBinding
 import com.example.flo.databinding.ActivitySongBinding
 
 lateinit var binding: ActivitySongBinding
+var playing = true
 
 class SongActivity : AppCompatActivity() {
 
@@ -21,12 +22,9 @@ class SongActivity : AppCompatActivity() {
         }
 
         binding.songMiniplayerIv.setOnClickListener {
-            setPlayerStatus(false) //play 버튼을 터치했을 때 play 버튼은 사라지고 pause 버튼이 나타나야 하므로 해당 케이스는 isPlaying = false
+            setPlayerStatus()
         }
 
-        binding.songPauseIv.setOnClickListener {
-            setPlayerStatus(true) //pause 버튼을 터치했을 때 pause 버튼은 사라지고 play 버튼이 나타나야 하므로 해당 케이스는 isPlaying = true
-        }
 
         if (intent.hasExtra("title") && intent.hasExtra("singer")){
             binding.songMusicTitleTv.text = intent.getStringExtra("title")
@@ -35,14 +33,14 @@ class SongActivity : AppCompatActivity() {
     }
 }
 
-fun setPlayerStatus(isPlaying : Boolean){
+fun setPlayerStatus(){
 
-    if(isPlaying){
-        binding.songMiniplayerIv.visibility = View.VISIBLE
-        binding.songPauseIv.visibility = View.GONE
+    if(playing){
+        binding.songMiniplayerIv.setImageResource(R.drawable.btn_miniplay_pause)
+        playing = false
     }
     else{
-        binding.songMiniplayerIv.visibility = View.GONE
-        binding.songPauseIv.visibility = View.VISIBLE
+        binding.songMiniplayerIv.setImageResource(R.drawable.btn_miniplayer_play)
+        playing = true
     }
 }
