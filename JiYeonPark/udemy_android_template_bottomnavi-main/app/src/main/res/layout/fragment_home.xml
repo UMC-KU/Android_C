@@ -181,10 +181,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/home_pannel_background_iv" />
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
+
+<!--=======-->
+<!--&gt;>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa-->
         <HorizontalScrollView
             android:id="@+id/home_today_music_oversea_hs"
             android:layout_width="wrap_content"
@@ -266,11 +266,11 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:scaleType="fitCenter"
-<<<<<<< HEAD
+
                         android:src="@drawable/img_album_exp" />
-=======
-                        android:src="@drawable/img_album_exp2" />
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
+
+
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -302,11 +302,8 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:scaleType="fitCenter"
-<<<<<<< HEAD
-                        android:src="@drawable/img_album_exp" />
-=======
+
                         android:src="@drawable/img_album_exp2" />
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -330,7 +327,7 @@
         </HorizontalScrollView>
 
 
-<<<<<<< HEAD
+
 
         <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/home_banner_vp"
@@ -355,8 +352,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/home_banner_vp" />
 
-=======
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

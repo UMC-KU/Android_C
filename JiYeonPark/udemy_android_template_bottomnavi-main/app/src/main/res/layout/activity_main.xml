@@ -6,17 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
     <FrameLayout
         android:id="@+id/main_frm"
         android:layout_width="match_parent"
         android:layout_height="0dp"
 
         app:layout_constraintBottom_toTopOf="@id/main_player_cl"
-<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent" />
 
     <SeekBar
@@ -35,13 +30,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/main_player_cl" />
-=======
-        app:layout_constraintTop_toTopOf="parent">
-
-
-    </FrameLayout>
-
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main_player_cl"
@@ -49,13 +37,9 @@
         android:layout_height="wrap_content"
         android:background="#F9F9F9"
         android:paddingVertical="5dp"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@id/main_bnv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
-=======
-        app:layout_constraintBottom_toTopOf="@id/main_bnv">
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -67,33 +51,18 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-<<<<<<< HEAD
                 android:id="@+id/main_miniplayer_title_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="라일락"
-=======
-                android:id="@+id/main_player_cl_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="제목"
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
                 android:textColor="@color/black"
                 android:textSize="13sp" />
 
             <TextView
-<<<<<<< HEAD
                 android:id="@+id/main_miniplayer_singer_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="아이유 (IU)"
-=======
-                android:id="@+id/main_player_cl_singer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="가수"
-
->>>>>>> 297157fda6b0e61735297c01b9fc13cea11fa3aa
                 android:textSize="12sp" />
 
         </LinearLayout>
