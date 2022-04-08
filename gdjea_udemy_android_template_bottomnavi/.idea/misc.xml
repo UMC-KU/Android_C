@@ -17,9 +17,11 @@
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/button_background_black_color.xml" value="0.193" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/button_background_flo_color.xml" value="0.1275" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/round_tip_background.xml" value="0.291" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/splash.xml" value="0.1" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/textview_background_select_color_radius.xml" value="0.193" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_song.xml" value="0.3619791666666667" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_album.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_banner.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_detail.xml" value="0.3619791666666667" />
