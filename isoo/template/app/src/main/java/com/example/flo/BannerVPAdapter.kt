@@ -15,4 +15,5 @@ class BannerVPAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
         fragmentList.add(fragment)
         notifyItemInserted(fragmentList.size-1)
     }
+
 }
