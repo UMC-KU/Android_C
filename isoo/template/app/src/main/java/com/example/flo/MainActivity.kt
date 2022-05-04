@@ -7,10 +7,14 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import com.example.flo.databinding.ActivityMainBinding
+import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
+
+    private var song : Song = Song()
+    private var gSon : Gson = Gson()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val song = Song(binding.mainPlayerTitleTv.text.toString(), binding.mainPlayerSingerTv.text.toString(), 0, 60, false)
+        //val song = Song(binding.mainPlayerTitleTv.text.toString(), binding.mainPlayerSingerTv.text.toString(), 0, 60, false, "music_lilac")
         Log.d("Song", song.title + song.singer)
 
         binding.mainPlayerCl.setOnClickListener {
@@ -68,5 +72,24 @@ class MainActivity : AppCompatActivity() {
             }
             false
         }
+    }
+
+    private fun setMiniPlayer(song:Song) {
+        binding.mainPlayerTitleTv.text = song.title
+        binding.mainPlayerSingerTv.text = song.singer
+        binding.mainMiniplayerProgressSb.progress = (song.second * 100000) / song.playTime
+    }
+
+    override fun onStart() {
+        super.onStart()
+        val sharedPreferences = getSharedPreferences("song", MODE_PRIVATE)
+        val songJson = sharedPreferences.getString("songData",null)
+
+        song = if(songJson == null) {
+            Song("라일락","아이유(IU)",0,60,false,"music_lilac")
+        } else {
+            gSon.fromJson(songJson, Song::class.java)
+        }
+        setMiniPlayer(song)
     }
 }
