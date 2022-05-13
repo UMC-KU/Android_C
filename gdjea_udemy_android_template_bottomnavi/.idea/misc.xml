@@ -19,16 +19,26 @@
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/round_tip_background.xml" value="0.291" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/splash.xml" value="0.1" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/drawable/textview_background_select_color_radius.xml" value="0.193" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_signup.xml" value="0.17553191489361702" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_song.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_album.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_banner.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_detail.xml" value="0.3619791666666667" />
-        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_locker.xml" value="0.1" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_locker_musicfile.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_locker_savedalbum.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_locker_savedsong.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_locker_savedsongs.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_look.xml" value="0.17553191489361702" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_song.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_video.xml" value="0.3619791666666667" />
         <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/item_album.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/item_locker_album.xml" value="0.17553191489361702" />
+        <entry key="..\:/android-sdk/Android_Project/gdjea_udemy_android_template_bottomnavi/app/src/main/res/layout/item_song.xml" value="0.17553191489361702" />
       </map>
     </option>
   </component>
