@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.ViewPager2
+import com.example.flo.data.entities.Album
 import com.example.flo.databinding.FragmentHomeBinding
 import com.google.gson.Gson
 

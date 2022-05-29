@@ -5,9 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.flo.databinding.ActivityMainBinding
+import com.example.flo.data.entities.Song
 import com.example.flo.databinding.ActivitySongBinding
-import java.nio.channels.InterruptedByTimeoutException
 import com.google.gson.Gson
 
 class SongActivity : AppCompatActivity() {

@@ -1,6 +1,7 @@
 package com.example.flo
 
 import androidx.room.*
+import com.example.flo.data.entities.Song
 
 @Dao
 interface SongDao {

@@ -2,8 +2,8 @@ package com.example.flo
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.ExpandableListView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.flo.data.entities.Album
 import com.example.flo.databinding.ItemAlbumBinding
 
 class AlbumRVAdapter(private val albumList: ArrayList<Album>): RecyclerView.Adapter<AlbumRVAdapter.ViewHolder>() {

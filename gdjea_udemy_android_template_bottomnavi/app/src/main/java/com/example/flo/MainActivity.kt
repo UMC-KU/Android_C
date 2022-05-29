@@ -5,6 +5,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.flo.data.entities.Album
+import com.example.flo.data.entities.Song
 import com.example.flo.databinding.ActivityMainBinding
 import com.google.gson.Gson
 
@@ -51,8 +53,14 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        Log.d("Song", song.title + song.singer)
+        Log.d("MAIN/JWT_TO_SERVER", getJwt().toString())
 
+    }
+
+    private fun getJwt(): String? {
+        val spf = this.getSharedPreferences("auth2", AppCompatActivity.MODE_PRIVATE)
+
+        return spf!!.getString("jwt", "")
     }
 
     override fun onStart() {
