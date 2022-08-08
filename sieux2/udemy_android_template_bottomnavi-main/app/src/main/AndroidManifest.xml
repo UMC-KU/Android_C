@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flo">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -24,6 +25,14 @@
         </activity>
         <activity
             android:name=".SongActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SignUpActivity"
             android:exported="true"/>
 
     </application>
